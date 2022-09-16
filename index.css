@@ -37,13 +37,16 @@ body {
 ul {
 	position: relative;
     display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	padding-inline-start: 0;
 }
 .nav-tabs{
 	width: 100%;
 	align-items: center;
 	display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    /*justify-content: space-between;*/
+    /*list-style-type: none;*/
 }
 .nav-link {
 	background-color: #1c9dea !important;
@@ -57,6 +60,7 @@ ul {
     border: none !important;
     text-align: center;
     justify-content: center;
+	text-decoration: none;
 }
 .nav-item-li {
 	margin-left: 15px;
@@ -101,7 +105,7 @@ input[type='text']{
 button, [type='submit']{
 	background-color: #1c9dea !important;
     margin: 30px 0;
-    padding: 0px 30px;
+    padding: 7px 38px;
     border-radius: 15px;
     color: white;
     font-weight: 700;
