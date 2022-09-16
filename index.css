@@ -8,7 +8,6 @@ body {
 	transform: translate(-50%,-50%);
 }
 .top-circle {
-	position: absolute;
     top: 50%;
     left: 50%;
 	background-image: linear-gradient(#f1f8fe, #f1f8fe, #cde7fa);
@@ -18,6 +17,7 @@ body {
     border-color: transparent;
     border-radius: 50%;
     border-width: 1px;
+    position: absolute;
 }
 .login-button {
 	background-color: white;
@@ -32,6 +32,7 @@ body {
 .login-content {
     background-color: white;
     padding: 10px 50px;
+    /*text-align: center;*/
 }
 ul {
 	position: relative;
@@ -97,7 +98,7 @@ label {
 input[type='text']{
 	padding: 20px;
 }
-buttons, [type='submit']{
+button, [type='submit']{
 	background-color: #1c9dea !important;
     margin: 30px 0;
     padding: 0px 30px;
@@ -110,7 +111,7 @@ buttons, [type='submit']{
     margin-left: auto;
     margin-right: auto;
 }
-.img-fluid{
+.logo{
 	display: block;
 	position: relative;
 	margin-left: auto;
